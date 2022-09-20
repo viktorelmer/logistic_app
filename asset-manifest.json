@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/logistic_app/static/css/main.6f837bc5.css",
+    "main.js": "/logistic_app/static/js/main.0f536f19.js",
+    "index.html": "/logistic_app/index.html",
+    "main.6f837bc5.css.map": "/logistic_app/static/css/main.6f837bc5.css.map",
+    "main.0f536f19.js.map": "/logistic_app/static/js/main.0f536f19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f837bc5.css",
+    "static/js/main.0f536f19.js"
+  ]
+}
