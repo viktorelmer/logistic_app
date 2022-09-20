@@ -1,5 +1,4 @@
 import { applyMiddleware, createStore, compose } from 'redux';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { createBrowserHistory } from 'history';
 
 import { routerMiddleware } from 'connected-react-router';
