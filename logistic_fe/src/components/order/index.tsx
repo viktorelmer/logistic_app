@@ -21,7 +21,7 @@ interface Props {
 
 const Order:React.FunctionComponent<Props> = ({order, selected, onSelect}) => {
     const [startRow, setStartRow] = React.useState(0);
-    const [endRow, setEndRow] = React.useState(COORDS_LIST.length - 1);
+    const [endRow, setEndRow] = React.useState(1);
 
 
     useEffect(() => {
@@ -54,7 +54,7 @@ const Order:React.FunctionComponent<Props> = ({order, selected, onSelect}) => {
                 
                 <span className='text-blue-900 text-md font-bold opacity-80 flex items-center'>
                     <DownCircleOutlined style={{fontSize: '20px'}} className=" text-red-600"/>:
-                    <Select defaultValue={COORDS_LIST.length - 1} onChange={setEndRow}>
+                    <Select defaultValue={1} onChange={setEndRow}>
                         {COORDS_LIST.map((item, id) => 
                             <Option key={id} value={id} label={'end_label_'+id}>Точка разгрузки №{id + 1}</Option>    
                         )}
